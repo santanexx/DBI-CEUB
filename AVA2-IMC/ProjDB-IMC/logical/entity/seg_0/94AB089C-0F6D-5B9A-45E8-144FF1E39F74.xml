@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94AB089C-0F6D-5B9A-45E8-144FF1E39F74" name="Atleta">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:04:23 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>atl</preferredAbbreviation>
+<shortName>Atleta</shortName>
+<synonym>Atleta</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="630A73B9-EDE5-633B-340E-9CFCD62CC4D5">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:04:48 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="0FBBCA81-055C-775A-792D-FE9E3F5AA82F">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:05:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="94C8A2E3-4940-3A2E-F235-228BC06AA610">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:06:00 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="B2C61382-6809-A74A-8692-51F7408046B1">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:06:36 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="742AEC75-3860-E50D-43A3-52D2B4245F04">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:07:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="7F8D7C95-72A2-E884-364C-35F28470B59A">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:07:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="19827924-5FF1-A449-5AC1-8E262ACE6A96">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:07:55 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="2D2F2513-BE38-C17E-B1F3-324DE544B95E">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:18:31 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

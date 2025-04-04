@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAD07A89-9D0A-6818-A6B5-05003DB2A1D4" name="Esporte">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:19:57 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ept</preferredAbbreviation>
+<shortName>Esporte</shortName>
+<synonym>Esporte</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="basquete" id="DCE30212-BEB6-77A0-3C83-16CCF71600F5">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:23:33 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="futebol" id="7F8E2C64-30D7-E833-82A6-3B19964201CC">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:23:48 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volei" id="991C2B35-7360-C8FA-511C-0F2E93FAD15B">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:24:11 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="handbol" id="B8D78844-A8CA-B5B2-FD68-70A74E020843">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:24:21 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="corrida" id="F7476511-2754-F05F-1BE7-E8C1CB633F07">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:24:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="musculacao" id="AF3BF010-8B0B-4110-0555-2A19F06E4BCD">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:24:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="natacao" id="EA5C64AF-6D04-6F9F-A240-F55E829624EF">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:24:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="atletaSaude" directorySegmentName="seg_0" id="D5D29AB0-E123-5C7F-6156-ACC58A1879FD">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:29:37 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>94AB089C-0F6D-5B9A-45E8-144FF1E39F74</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E515123E-364C-3153-DE1E-6D75A07A4B32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

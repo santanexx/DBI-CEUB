@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28056E01-0D8C-73DC-76C9-4E50DFC08C04" name="TabelaImc">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:08:29 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>imc</preferredAbbreviation>
+<shortName>TabelaImc</shortName>
+<synonym>TabelaImc</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="abaixoPeso" id="610CEEEE-ACC8-1DA2-D087-F1D22692C839">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:09:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoAdequado" id="857A78E4-1995-6DAA-071F-4C1F2D150BBB">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:14:32 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrePeso" id="831B4695-57D4-0713-8FED-2BC3CF63CDB2">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:14:54 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidadeLeve" id="9974B789-ACB5-218F-C8E5-2EE351D6021C">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:15:10 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidadeMedia" id="9805A703-F27E-9688-9555-B4438058C865">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:16:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidadeGrave" id="20444D98-6889-AFC4-AEFC-126E8FE9240A">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-04-03 23:16:18 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="4C1AC0AA-863C-1F9E-C272-F60396C4464D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
