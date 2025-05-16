@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC96395F-EDE3-5C42-9CBC-9D9F71852263" name="Endereco">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:34:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>END</preferredAbbreviation>
+<shortName>Endereco</shortName>
+<synonym>Endereco</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="2FDD343E-8B83-CFA8-900E-49413FBAAB88">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:34:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroAssociado" id="A0ED747C-DE05-1496-E970-A37089B07E81">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:34:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecoAssociado " id="64A56748-1126-FA39-AE7C-CFBF69EF17F8">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:34:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoAssociado" id="A487EC85-8519-0794-ECFE-E27621653068">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:34:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoAssociado " id="73805E25-7BA8-5C15-773F-967BECCDE956">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:34:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoAssociado" id="C758FF55-BAAA-1B15-0A5A-1514E6B96625">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:34:24 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="9B0781BD-43E3-AB83-5E7B-928CEB51C314">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:44:41 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>3246060B-201A-7E6E-3E6B-9D67A19C3FFC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<referedAttribute>F7C90834-8C05-CDCC-66A1-139DCAE3F1BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf2" id="0E026FE6-8E96-04EF-F2D3-6EC38FB291F6">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:44:45 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>80F1F423-F69B-7B7C-1C2C-79AD5983D2A7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<referedAttribute>2998B763-F5F4-9889-EA37-3F8468358A9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4EB132C6-A611-6D0B-D509-D33A7FBD5BD1" name="Entity_9 PK">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:38:41 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2FDD343E-8B83-CFA8-900E-49413FBAAB88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

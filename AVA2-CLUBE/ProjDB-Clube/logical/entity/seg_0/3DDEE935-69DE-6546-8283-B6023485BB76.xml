@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DDEE935-69DE-6546-8283-B6023485BB76" name="MensalidadeAssociado">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:51:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>MSA</preferredAbbreviation>
+<shortName>MensalidadeAssociado</shortName>
+<synonym>MensalidadeAssociado</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="40879779-1F57-6CE4-F3D5-46723FAA2BED">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:21:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorMensalidade" id="2AFDD2A9-D665-1B3C-F471-84D3FA8F573B">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:51:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vencimentoMensalidade" id="F818A74C-B683-D30B-EA4B-5C5DE381A6E9">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:20:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="DD7F41D9-151C-C2E9-0121-DE0163EA0147">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:45:50 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>725A47A4-B0C9-968F-2935-EF92E8B76A31</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<referedAttribute>2998B763-F5F4-9889-EA37-3F8468358A9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBE73CFF-E890-3F04-1A75-E53D7CBFDF24" name="MensalidadeAssociado PK">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:21:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40879779-1F57-6CE4-F3D5-46723FAA2BED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

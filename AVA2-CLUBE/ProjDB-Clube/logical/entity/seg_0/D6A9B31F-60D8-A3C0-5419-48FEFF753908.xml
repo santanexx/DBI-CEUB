@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6A9B31F-60D8-A3C0-5419-48FEFF753908" name="Dependente">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:29:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>DPD</preferredAbbreviation>
+<shortName>Dependente</shortName>
+<synonym>Dependente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="F7C90834-8C05-CDCC-66A1-139DCAE3F1BE">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:29:42 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCompleto" id="9C26BDB3-E50A-D016-456B-A0A73F8FCD3F">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:29:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="E464EBB7-FBAA-DA13-4B03-EE118E76490F">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:29:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentescoDependente" id="C8BF2886-5011-3BFB-38A0-024D5ADC408C">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:33:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="7777030E-CD9B-49B8-9D15-72F4C4932D01">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:43:56 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>7B5A76E4-FF32-CE60-966B-781E943C6CAC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<referedAttribute>2998B763-F5F4-9889-EA37-3F8468358A9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6AC49281-DA66-F4CB-ECF7-397E438A95BD" name="EnderecoAssociado PK">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:29:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7C90834-8C05-CDCC-66A1-139DCAE3F1BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4C264A0-843B-0AB4-300B-2B7870F5E3B0" name="Associado">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:45:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ACD</preferredAbbreviation>
+<shortName>Associado</shortName>
+<synonym>Associado</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="2998B763-F5F4-9889-EA37-3F8468358A9D">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:45:14 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>E060AD9C-F8BF-B1FA-1887-A0EA1964A797</importedID>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCompleto" id="A1A5230B-DE83-E21C-159E-94682D2B5C5E">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:26:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="8385193E-4FA2-F932-C674-F6AF23AF7BCC">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:26:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA1E4B46-5F6A-0CF4-B60E-81FD3E4FE009" name="EnderecoAssociado PK">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:49:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2998B763-F5F4-9889-EA37-3F8468358A9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

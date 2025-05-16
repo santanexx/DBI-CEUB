@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C53664A2-F967-6251-5280-F9961B6431C9" name="Telefones">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:40:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TLF</preferredAbbreviation>
+<shortName>Telefones</shortName>
+<synonym>Telefones</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="54966611-FE49-0E83-6E5F-4BCD6B5F8F3F">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:40:39 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>7047B62D-335A-5CAD-9FE6-C02CB6515F32</importedID>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefones" id="43F71ADA-FCD5-7B13-88D2-E9D54D704A98">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:40:39 UTC</createdTime>
+<comment><![CDATA[Telefones do cliente, que pode ser residencial, trabalho ou contato.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>8527F5C8-6C91-8463-DB4D-AB50F57D9F2A</importedID>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf1" id="6BFEABB7-1C65-1318-3544-E75DA070F011">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:44:02 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>2E4130E4-F0BB-2125-112A-58CC5D81A09F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<referedAttribute>2998B763-F5F4-9889-EA37-3F8468358A9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf2" id="297B28C7-B332-1B0D-15EB-3C211B2C5E6D">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-16 00:44:07 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>9227D241-7078-7D38-1D9C-DF9F32507D46</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<referedAttribute>F7C90834-8C05-CDCC-66A1-139DCAE3F1BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="136EE863-E72B-506D-BBC6-FD27E3CE6057" name="TelefonesCliente PK">
+<createdBy>sannt11na</createdBy>
+<createdTime>2025-05-15 23:40:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C39F34A-3D23-5900-D471-77A9D4B6DCB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43F71ADA-FCD5-7B13-88D2-E9D54D704A98</attributeRef>
+<attributeRef>54966611-FE49-0E83-6E5F-4BCD6B5F8F3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
