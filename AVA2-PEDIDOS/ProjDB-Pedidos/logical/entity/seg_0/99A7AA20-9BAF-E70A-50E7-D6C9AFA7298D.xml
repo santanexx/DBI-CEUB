@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99A7AA20-9BAF-E70A-50E7-D6C9AFA7298D" name="Produto">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 21:58:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoProduto" id="4E9CC0ED-4BDA-C3B0-7B3E-0F6EDAAAB53E">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 21:58:07 UTC</createdTime>
+<comment><![CDATA[Código de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeProduto" id="3C800364-10B0-A082-B8EB-FAD374229D06">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 21:58:07 UTC</createdTime>
+<comment><![CDATA[Nome de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioProduto" id="EDA1A85D-1C77-D51A-2CAB-6B5AF9D7877D">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 21:58:07 UTC</createdTime>
+<comment><![CDATA[Preço unitário de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C51FFD26-B089-677C-B5B9-7664D2CD5221" name="Pedidos PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 21:58:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E9CC0ED-4BDA-C3B0-7B3E-0F6EDAAAB53E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

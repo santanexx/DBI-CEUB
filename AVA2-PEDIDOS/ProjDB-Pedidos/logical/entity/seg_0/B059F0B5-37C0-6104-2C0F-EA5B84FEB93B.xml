@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B059F0B5-37C0-6104-2C0F-EA5B84FEB93B" name="ItensPedidos">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:55:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroPedido" id="CF99D60B-3003-1276-E67E-A53197BD8791">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:55:56 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoProduto" id="FFF1B601-6A4A-A939-F040-EE9547C8BDC8">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:55:56 UTC</createdTime>
+<comment><![CDATA[Código de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioProduto" id="295722C3-CA87-0C08-DD25-BD1021C0D74F">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:55:56 UTC</createdTime>
+<comment><![CDATA[Preço unitário de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeProduto" id="B38B4284-E25A-0F34-9B17-EB61E4F61ED5">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:55:56 UTC</createdTime>
+<comment><![CDATA[Quantidade de um item de  produto que o cliente comprou.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPedido1" id="7A2560E5-E4FD-2009-A906-B7CF50263FAB">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:00:17 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>D245F889-B8BF-F389-BA0D-895D4C1B015A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referedAttribute>EC8C5665-8B40-9BF2-3031-AE0E34A4FD51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfClientePedido" id="92017327-D52D-F9B5-36B4-AB7A962F6BD2">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-13 00:40:51 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<generatorID>D245F889-B8BF-F389-BA0D-895D4C1B015A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referedAttribute>D3D28C7A-D448-31DB-984E-6A4EBB056ABA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoProduto1" id="A8226AEE-DD7B-8A47-5105-93FCCF85CE0C">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 21:59:33 UTC</createdTime>
+<comment><![CDATA[Código de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>F6BB3223-34C1-17C3-EFC2-5E7B11B1B6CC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referedAttribute>4E9CC0ED-4BDA-C3B0-7B3E-0F6EDAAAB53E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4789333-4699-EA50-76ED-950CD4215CB4" name="Pedidos PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:55:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFF1B601-6A4A-A939-F040-EE9547C8BDC8</attributeRef>
+<attributeRef>CF99D60B-3003-1276-E67E-A53197BD8791</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

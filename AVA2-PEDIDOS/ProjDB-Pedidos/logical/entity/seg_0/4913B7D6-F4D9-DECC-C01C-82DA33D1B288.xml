@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4913B7D6-F4D9-DECC-C01C-82DA33D1B288" name="Vendedor">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 22:01:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matriculaVendedor" id="A0919F77-CE8C-9106-0317-ADCAC3A8C0C0">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 22:01:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeVendedor" id="2FE14A5D-26DD-6CCF-AE64-B27C9E299C86">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 22:02:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2EB7389-EA15-998E-0C79-8359974432DA" name="Vendedor PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-15 22:02:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0919F77-CE8C-9106-0317-ADCAC3A8C0C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
