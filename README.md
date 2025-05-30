@@ -1,2 +1,3 @@
 # DBI-CEUB
-Trabalhos academicos de Banco de Dados
+Trabalhos academicos de banco de Dados
+Do aluno Gustavo Santana
